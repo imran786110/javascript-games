@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sheraliat's</title>
+  </head>
+  <body>
+    <header>
+      <p class="between">
+        Hey! Let's play a game. <br /><br />
+        I have a number for you between (1 to 20). You can guess the number if
+        it matches mine, you are a genious
+      </p>
+      <h1>Guess My Number!</h1>
+	  <p class="text">Between 1 and 20</p>
+      <button class="btn again">Play Again!</button>
+	  <button class="btn help">Help</button>
+	  <div class="dialog">
+		<p>In this game you have to guess a number between 1 to 20, if it exactly matches my guess, then you will win and the high score can be stored below.</br></br>
+		Use the input field below to write your number and click on check button. It will check if the number matches or not.</br></br>
+		There you can also see the information about your number is greater than or smaller than my number, that gives a good hint to guess for the next time.</p>
+	  </div>
+      <div class="number">?</div>
+    </header>
+	<main>
+      <div class="first">
+	    <p class="message">Start guessing...</p>
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </div>
+      <div class="second">
+        <input type="number" class="guess" />
+        <button class="btn check">Check!</button>
+      </div>
+    </main>
+	<script src="script.js"></script>
+  </body>
+</html>
