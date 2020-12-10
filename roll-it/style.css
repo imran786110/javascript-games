@@ -180,12 +180,13 @@ input {
 
 @media screen and (max-width: 750px) {
   main {
-    width: 100rem;
+    width: 80rem;
     height: 65rem;
     padding: 2rem;
   }
   .player {
     flex: 100%;
+    width: 40%;
     padding: 2rem;
     display: flex;
     flex-direction: column;

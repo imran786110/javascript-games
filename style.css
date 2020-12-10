@@ -97,7 +97,7 @@ div {
 
 @media screen and (max-width: 750px) {
   main {
-    width: 100rem;
+    width: 80rem;
     height: 65rem;
     flex-direction: column;
   }
@@ -111,7 +111,7 @@ div {
   }
   div {
     padding: 2rem;
-    height: 18rem;
+    height: 19rem;
     width: 43.2rem;
     text-transform: none;
   }
