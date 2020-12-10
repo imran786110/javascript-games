@@ -177,3 +177,28 @@ input {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 750px) {
+  main {
+    width: 100rem;
+    height: 65rem;
+    padding: 2rem;
+  }
+  .player {
+    flex: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.75s;
+  }
+  .dice {
+    top: 26.4rem;
+  }
+  .btn--roll {
+    top: 38rem;
+  }
+  .btn--new {
+    top: 20rem;
+  }
+}

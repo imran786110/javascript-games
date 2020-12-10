@@ -94,3 +94,30 @@ div {
   font-size: 1.5rem;
   color: #ddd;
 }
+
+@media screen and (max-width: 750px) {
+  main {
+    width: 100rem;
+    height: 65rem;
+    flex-direction: column;
+  }
+  .player {
+    flex: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.75s;
+  }
+  div {
+    padding: 2rem;
+    height: 18rem;
+    width: 43.2rem;
+    text-transform: none;
+  }
+  .text {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #ddd;
+  }
+}
