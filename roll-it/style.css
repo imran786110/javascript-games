@@ -82,7 +82,7 @@ main {
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
-  width: 65%;
+  width: 90%;
   padding: 2rem;
   text-align: center;
   transition: all 0.75s;
@@ -201,5 +201,20 @@ input {
   }
   .btn--new {
     top: 20rem;
+  }
+  #inputname--0 {
+    display: none;
+  }
+  #inputname--1 {
+    display: none;
+  }
+  #name--0 {
+    display: block;
+  }
+  #name--1 {
+    display: block;
+  }
+  .name {
+    font-size: 2rem;
   }
 }
