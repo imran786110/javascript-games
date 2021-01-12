@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/devokpyl/sheraliat.com/
-    - -R * $DEPLOYPATH
